@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Survey</title>
+        <link rel="stylesheet" type="text/css" href="surveystyle.css" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+    </head>
+    <body>
+        <header>
+        <nav>
+            <ul>
+                <li><a href=home.html>Home</a></li>
+                <li><a href=survey.html>Survey</a></li>
+                <li><a href=resources.html>Resources</a></li>
+                <li><a href=recipes.html>Recipes</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <h1>What's your favorite gluten-free <br/>comfort food?</h1>
+
+        <div class="wrapper">
+            <form action="/form-handling-url" method="post">
+                <div class="inputbox">
+                    <input type="text" id="name" name="name" placeholder="Name" />
+                </div>
+                <div class="inputbox">
+                    <input type="email" id="email" name="email" placeholder="Email" />
+                </div>
+                <div class="reasonFor">
+                    <p>Reason for being gluten-free:</p>
+                </div>
+                <div class="radio">
+                    <label for="celiac">Celiac disease</label>
+                    <input type="radio" id="celiac" name="reasonFor" value="celiac" />
+                </div>
+                <div class="radio">
+                    <label for="gluten-sensitivity">Gluten sensitivity</label>
+                    <input type="radio" id="gluten-sensitivity" name="reasonFor" value="gluten-sensitivity" />
+                </div>
+                <div class="radio">
+                    <label for="preference">It's my preference</label>
+                    <input type="radio" id="preference" name="reasonFor" value="preference" />
+                </div>
+                <br/>
+                <div class="textarea">
+                    <textarea id="describe" name="describe" rows="10" cols="32">Describe your favorite gluten-free comfort food</textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,120 @@
+/* General settings */
+
+body {
+    background-color: #FEDC97;
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #565a7e;
+}
+
+header {
+    background-color: #CEEAF7;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+    font-weight: bold;
+}
+
+header li {
+    margin: 20px 100px;
+    font-size: 1.6em;
+}
+
+header li a {
+    color: #565a7e;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size:2.8em;
+    font-family: georgia;
+    margin: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+p {
+    margin: 0 25%;
+    font-size: 1.3em;
+}
+
+a {
+    color:#565a7e;
+}
+
+
+
+/* Home page */
+
+.gfsymbol {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.gfsymbol img {
+    height: 500px;
+    width: 500px;
+}
+
+.homeText p {
+    margin: 0 25% 40px 25%;
+}
+
+/* Resources page */
+
+.resourceLinks {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.resourceLinks li {
+    margin: 30px;
+}
+
+.resourceLinks li a {
+    font-size: 1.3em;
+}
+
+.resourceLinks ul {
+    list-style-type: none;
+}
+
+/* Recipe page */
+
+.recipeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.recipeContainer a {
+    text-decoration: none;
+}
+
+figure img {
+    height: 300px;
+    width: 400px;
+}
+
+figure figcaption {
+    font-size: 1.3em;
+}
